@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "karma", sans-serif;
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header {
+  font-size: 4rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 4rem;
+}
+
+.flex-container {
+ 
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  vertical-align: center;
+  flex-flow: wrap;
+}
+
+.flex-container h4 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding: 1rem;
+  text-align: center;
+}
+
+.flex-container p {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.image-box {
+  width: 26rem;
+}
+
+img {
+  width: 100%;
+}
