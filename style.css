@@ -44,9 +44,18 @@ header {
 }
 
 .image-box {
-  width: 26rem;
+  width: 20%;
 }
 
 img {
   width: 100%;
+}
+
+@media  (width <= 600px) {
+  .flex-container {
+    display: inline-block;
+  }
+   .image-box {
+    width: 100%;
+   }
 }
